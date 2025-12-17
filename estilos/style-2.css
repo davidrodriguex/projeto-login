@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*  Mobile First 2 */
+
+/*
+Paleta de Cores:
+- Primária: #555647
+- Secundária: #44443a
+- Fundo: #d1cec7 
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: #d1cec7;
+    width: 100vw;
+    height: 100vh;
+}
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 500px;
+    background-color: #555647;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
+}
+#login > #ft {
+    display: block;
+    background: #d1cec7 url(../imagens/background-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+#login > #forms {
+    display: block;
+    padding: 15px;
+    color: #ffffff;
+}
