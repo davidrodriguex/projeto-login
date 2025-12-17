@@ -31,6 +31,7 @@ body, html {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: width 0.3s, height .3s ease;
 }
 #login > #ft {
     display: block;

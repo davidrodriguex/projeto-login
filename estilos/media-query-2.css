@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+Typical Device Breakpoints
+----------------------------
+- Small devices (phones, 600px and down) Sure!!
+- Medium devices (portrait tablets and small desktops, 600px to 768px) Sure!!
+- Normal devices (landscape tablets and desktops, 768px to 992px)
+- Large devices (large desktops, 992px to 1200px)
+- Extra large devices (1200px and up)
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #login {
+        width: 90vw;
+    }
+    #ft {
+        float: left;
+        width: 30%;
+        min-height: 100vh;
+    }
+    #forms {
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 992px) {
+    #login {
+        width: 992px;
+    }
+    #ft {
+        float: left;
+        width: 50%;
+        min-height: 100vh;
+    }
+    #forms {
+        float: right;
+        width: 50%;
+    }
+}
