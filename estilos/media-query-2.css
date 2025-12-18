@@ -13,26 +13,32 @@ Typical Device Breakpoints
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #login {
         width: 90vw;
+        height: 310px;
     }
     #ft {
         float: left;
-        width: 30%;
+        width: 30%; 
         min-height: 100vh;
     }
     #forms {
         float: right;
         width: 70%;
     }
-    #forms h1 {
+    #login > #forms > h1 {
         font-size: 2em;
     }
     #forms p {
-        font-size: 1.4em;
+        font-size: 1.3em;
+    }
+    form > .campo > input[type="email"],
+    form > .campo > input[type="password"] {
+        width: 85%
     }
 }
 @media screen and (min-width: 992px) {
     #login {
         width: 992px;
+        height: 320px;
     }
     #ft {
         float: left;
@@ -48,5 +54,9 @@ Typical Device Breakpoints
     }
     #forms p {
         font-size: 1.5em;
+    }
+    form > .campo > input[type="email"],
+    form > .campo > input[type="password"] {
+        width: 85%
     }
 }
