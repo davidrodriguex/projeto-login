@@ -10,25 +10,37 @@
 </head>
 <body>
     <section id="login">
-        <div id="ft">
-        </div>
-        <div id="forms">
+
+        <div id="ft"></div> <!-- Fundo decorativo -->
+
+        <div id="forms"> <!-- Caixa de formulário completa -->
+
             <h1>Login</h1>
+
             <p>Seja bem-vindo(a), faça login para acessar o seu ambiente.</p>
+
             <form action="login.php" method="post" autocomplete="on">
+
                 <div class="campo">
+                    
                     <span class="material-symbols-outlined">person</span>
-                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu E-mail" required>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" required>
                     <label for="iemail">Email</label>
                 </div>
+
                 <div class="campo">
+
                     <span class="material-symbols-outlined">vpn_key</span>
                     <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" minlength="8" required>
                     <label for="isenha">Senha</label>
                 </div>
+
                 <input type="submit" value="Entrar">
-                <a href="reset.html">Esqueci a senha</a>
+
+                <a href="reset.html" class="btn" target="_blank">Esqueci a senha</a>
+
             </form>
+
         </div>
     </section>
 </body>
